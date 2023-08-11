@@ -1,0 +1,40 @@
+/**********************/
+/*     over 368px     */
+/**********************/
+@media (min-width: 23em) {
+  html {
+    font-size: 80%;
+  }
+}
+
+/**********************/
+/*     over 432px     */
+/**********************/
+@media only screen and (min-width: 27em) {
+  html {
+    font-size: 100%;
+  }
+
+  .box-display {
+    font-size: calc((12 / 16) * 1rem);
+    top: calc((-27 / 16) * 1rem);
+  }
+}
+
+/**********************/
+/*     over 640px     */
+/**********************/
+@media only screen and (min-width: 43em) {
+}
+
+/**********************/
+/*     over 928px     */
+/**********************/
+@media only screen and (min-width: 58em) {
+}
+
+/***********************/
+/*     over 1120px     */
+/***********************/
+@media only screen and (min-width: 70em) {
+}

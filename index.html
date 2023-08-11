@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Expenses chart component</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/queries.css" />
+  </head>
+  <body>
+    <!-- Main -->
+    <main class="main flex-center">
+      <h1 class="hidden">Expenses chart component</h1>
+      <div class="main__container">
+        <!-- My balance section -->
+        <section class="my-balance">
+          <div class="my-balance__content">
+            <p class="my-balance__title">My balance</p>
+            <span class="my-balance__amount">$00.00</span>
+          </div>
+          <img class="my-balance__logo" src="assets/images/logo.svg" alt="" />
+        </section>
+
+        <!-- Spending section -->
+        <section class="spending">
+          <h2 class="spending__title">Spending - Last 7 days</h2>
+          <div class="spending-graph">
+            <div class="graph__section graph__section--mon">
+              <div class="graph__box graph__box--mon">
+                <div class="box-display box-display--mon">
+                  <p>
+                    $<span class="box-display__amount box-display__amount--mon"
+                      >00.00</span
+                    >
+                  </p>
+                </div>
+              </div>
+              <p class="graph__label graph__label--mon">mon</p>
+            </div>
+            <div class="graph__section graph__section--tue">
+              <div class="graph__box graph__box--tue">
+                <div class="box-display box-display--tue">
+                  <p>
+                    $<span class="box-display__amount box-display__amount--tue"
+                      >00.00</span
+                    >
+                  </p>
+                </div>
+              </div>
+              <p class="graph__label graph__label--tue">tue</p>
+            </div>
+            <div class="graph__section graph__section--wed">
+              <div class="graph__box graph__box--wed">
+                <div class="box-display box-display--wed">
+                  <p>
+                    $<span class="box-display__amount box-display__amount--wed"
+                      >00.00</span
+                    >
+                  </p>
+                </div>
+              </div>
+              <p class="graph__label graph__label--wed">wed</p>
+            </div>
+            <div class="graph__section graph__section--thu">
+              <div class="graph__box graph__box--thu">
+                <div class="box-display box-display--thu">
+                  <p>
+                    $<span class="box-display__amount box-display__amount--thu"
+                      >00.00</span
+                    >
+                  </p>
+                </div>
+              </div>
+              <p class="graph__label graph__label--thu">thu</p>
+            </div>
+            <div class="graph__section graph__section--fri">
+              <div class="graph__box graph__box--fri">
+                <div class="box-display box-display--fri">
+                  <p>
+                    $<span class="box-display__amount box-display__amount--fri"
+                      >00.00</span
+                    >
+                  </p>
+                </div>
+              </div>
+              <p class="graph__label graph__label--fri">fri</p>
+            </div>
+            <div class="graph__section graph__section--sat">
+              <div class="graph__box graph__box--sat">
+                <div class="box-display box-display--sat">
+                  <p>
+                    $<span class="box-display__amount box-display__amount--sat"
+                      >00.00</span
+                    >
+                  </p>
+                </div>
+              </div>
+              <p class="graph__label graph__label--sat">sat</p>
+            </div>
+            <div class="graph__section graph__section--sun">
+              <div class="graph__box graph__box--sun">
+                <div class="box-display box-display--sun">
+                  <p>
+                    $<span class="box-display__amount box-display__amount--sun"
+                      >00.00</span
+                    >
+                  </p>
+                </div>
+              </div>
+              <p class="graph__label graph__label--sun">sun</p>
+            </div>
+          </div>
+
+          <div class="total-spending">
+            <div class="total-spending__this-month">
+              <p class="this-month__title">Total this month</p>
+              <span class="this-month__amount">$00.00</span>
+            </div>
+            <div class="total-spending__last-month">
+              <span class="last-month__amount">+0.0%</span>
+              <p class="last-month__title">from last month</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer flex-center">
+      <span class="attribution"
+        >Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >
+      </span>
+      <span class="boxv">&boxv;</span>
+      <span class="attribution"
+        >Coded by
+        <a
+          href="https://www.frontendmentor.io/profile/josh76543210"
+          target="_blank"
+          >josh76543210</a
+        >
+      </span>
+    </footer>
+
+    <!-- JS -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
